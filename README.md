@@ -28,7 +28,7 @@ Here are the technologies used in this project.
 * To clone repository with git:
 >    $ git clone https://github.com/gabrielf7/PrimeiroBootstrap.git
 * To access simple bootstrap:
->    $ cd Primeiro-Bootstrap
+>    $ cd create-simples-bootstrap
 * To create node_modules:
 >    $ npm install
 * To start simple bootstrap:
