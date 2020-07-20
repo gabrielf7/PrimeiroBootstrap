@@ -36,25 +36,6 @@ Here are the technologies used in this project.
 >    $ npm start
 
 
-## How to use
-
-Here will be the images and descriptions. Principal content.
-
-
-## Features
-
-  - Here will be the features.
-
-
-## Links
-
-  - Link of deployed application: (if has been deployed)
-  - Repository: https://link_of_repository
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      YOUR EMAIL directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
-
-
 ## Versioning
 
 1.0.0.0
