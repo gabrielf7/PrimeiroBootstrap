@@ -1,4 +1,3 @@
-Default
 ![Logo of the project](https://github.com/gabrielf7/PrimeiroBootstrap/blob/master/Simples-Bootstrap-Design.png)
 
 ## Temaplate Simples usando Bootstrap
