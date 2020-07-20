@@ -24,13 +24,15 @@ Here are the technologies used in this project.
 
 ## Getting started
 
-* To install gems:
->    $ bundle install
-* To create the bank and do as migrations:
->    $ rake db:create db:migrate db:seed
-* To run the project:
->    $ rails s
-
+* To install nodejs:
+>    [nodejs-update](https://nodejs.org/en/download/)
+* To clone repository with git:
+>    $ git clone https://github.com/gabrielf7/PrimeiroBootstrap.git
+* To access simple bootstrap:
+>    $ cd Primeiro-Bootstrap
+>    $ npm install
+* To start simple bootstrap:
+>    $ npm start
 
 
 ## How to use
