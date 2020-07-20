@@ -30,7 +30,8 @@ Here are the technologies used in this project.
 >    $ git clone https://github.com/gabrielf7/PrimeiroBootstrap.git
 * To access simple bootstrap:
 >    $ cd Primeiro-Bootstrap
-     $ npm install
+* To create node_modules:
+>    $ npm install
 * To start simple bootstrap:
 >    $ npm start
 
