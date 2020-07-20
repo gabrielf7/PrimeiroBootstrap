@@ -26,7 +26,7 @@ Here are the technologies used in this project.
 * To install nodejs:
 >    [nodejs-update](https://nodejs.org/en/download/)
 * To clone repository with git:
->    $ git clone https://github.com/gabrielf7/PrimeiroBootstrap.git
+>    $ git clone https://github.com/gabrielf7/create-simple-bootstrap.git
 * To access simple bootstrap:
 >    $ cd create-simples-bootstrap
 * To create node_modules:
