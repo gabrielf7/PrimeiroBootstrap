@@ -40,7 +40,7 @@ Here are the technologies used in this project.
 1.0.0.0
 
 
-##License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/gabrielf7/PrimeiroBootstrap/blob/master/LICENSE) file for details.
 
