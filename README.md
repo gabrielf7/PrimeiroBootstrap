@@ -10,7 +10,10 @@ Simple model with bootstrap. Take your first step.
 
 Here are the technologies used in this project.
 
-* Bootstrap version  4.4.0
+* Nodejs 12.16.0
+* Bootstrap version  4.4.1
+* Fortawesome 5.13.0
+* Popper.js 1.16.1
 
 
 ## Services Used
