@@ -8,14 +8,14 @@
 
 ## Technology 
 
-<p align="center">
+<div align="center">
   <p>Here are the technologies used in this project.</p>
   
   <a href="https://nodejs.org/en/download/">NodeJS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://pt-br.reactjs.org/">Bootstrap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://reactnative.dev/">Fortawesome</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://reactnative.dev/">Popper.js</a>
-</p>
+</div>
 
 
 ## Services Used
