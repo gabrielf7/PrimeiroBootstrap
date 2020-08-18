@@ -1,7 +1,7 @@
 <div align="center">
   <h6>Simple Template using Bootstrap</h6>
   
-  <img alt="Logo of the project" src="https://github.com/gabrielf7/PrimeiroBootstrap/blob/master/Simples-Bootstrap-Designn.png" >
+  <img alt="Logo of the project" src="https://github.com/gabrielf7/create-simple-bootstrap/blob/master/readme_files/Simples-Bootstrap-Designn.png" >
   
   <p>Simple model with bootstrap. Take your first step.</p>
 </div>
@@ -10,17 +10,17 @@
 
 Here are the technologies used in this project.
 
-* Nodejs 12.16.0
-* Bootstrap version  4.4.1
-* Fortawesome 5.13.0
-* Popper.js 1.16.1
+<p align="center">
+  <a href="https://nodejs.org/en/download/">NodeJS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://pt-br.reactjs.org/">Bootstrap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://reactnative.dev/">Fortawesome</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://reactnative.dev/">Popper.js</a>
+</p>
 
 
 ## Services Used
 
 * Github
-
-
 
 ## Getting started
 
@@ -30,15 +30,10 @@ Here are the technologies used in this project.
 >    $ git clone https://github.com/gabrielf7/create-simple-bootstrap.git
 * To access simple bootstrap:
 >    $ cd create-simples-bootstrap
-* To create node_modules:
+* To create node_modules in any project folder you want:
 >    $ npm install
 * To start simple bootstrap:
 >    $ npm start
-
-
-## Versioning
-
-1.0.0.0
 
 
 ## License
