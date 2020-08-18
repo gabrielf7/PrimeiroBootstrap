@@ -1,5 +1,5 @@
 <div align="center">
-  <h6>Temaplate Simples usando Bootstrap</h6>
+  <h6>Simple Template using Bootstrap</h6>
   
   <img alt="Logo of the project" src="https://github.com/gabrielf7/PrimeiroBootstrap/blob/master/Simples-Bootstrap-Designn.png" >
   
