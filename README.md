@@ -1,9 +1,10 @@
-![Logo of the project](https://github.com/gabrielf7/PrimeiroBootstrap/blob/master/Simples-Bootstrap-Designn.png)
-
-## Temaplate Simples usando Bootstrap
-
-Simple model with bootstrap. Take your first step.
-
+<div align="center">
+  <h6>Temaplate Simples usando Bootstrap</h6>
+  
+  <img alt="Logo of the project" src="https://github.com/gabrielf7/PrimeiroBootstrap/blob/master/Simples-Bootstrap-Designn.png" >
+  
+  <p>Simple model with bootstrap. Take your first step.</p>
+</div>
 
 ## Technology 
 
