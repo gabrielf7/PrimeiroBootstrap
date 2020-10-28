@@ -47,6 +47,9 @@
      styles / scss in the file "mystyles.scss", in this case, this file provides 
      manipulation of the existing CSS in Bootstrap and traditional CSS. 
      Any questions, just read the comments designated by the beginning "//").
+     
+<br />
+
 * To start simple bootstrap:
 >    $ npm start
 
