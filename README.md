@@ -38,6 +38,12 @@
 >    $ cd create-template-bootstrap_01
 * To create node_modules in any project folder you want:
 >    $ npm install
+* To create the "compile" folder to manage css you need to execute the command below:
+>    $ npm run scss-i
+>    (OBS: It is advisable to manipulate the css after this command in the folder 
+     styles / scss in the file "mystyles.scss", in this case, this file provides 
+     manipulation of the existing CSS in Bootstrap and traditional CSS. 
+     Any questions, just read the comments designated by the beginning "//").
 * To start simple bootstrap:
 >    $ npm start
 
