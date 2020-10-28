@@ -22,6 +22,10 @@
 
 * Github
 
+## Before starting, some necessary requirements
+
+* Know about Git and GitHub interaction
+
 ## Getting started
 
 * To install nodejs:
@@ -30,6 +34,8 @@
 >    $ git clone https://github.com/gabrielf7/create-simple-bootstrap.git
 * To access simple bootstrap:
 >    $ cd create-simples-bootstrap
+* To access the numbered folder, for example, "create-simples-bootstrap_01":
+>    $ cd create-simples-bootstrap_01
 * To create node_modules in any project folder you want:
 >    $ npm install
 * To start simple bootstrap:
