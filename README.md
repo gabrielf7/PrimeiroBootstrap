@@ -33,7 +33,7 @@
 * To clone repository with git:
 >    $ git clone https://github.com/gabrielf7/create-template-bootstrap.git
 * To access simple bootstrap:
->    $ cd create-template-bootstrap_01
+>    $ cd create-template-bootstrap
 * To access the numbered folder, for example, "create-template-bootstrap_01":
 >    $ cd create-template-bootstrap_01
 * To create node_modules in any project folder you want:
