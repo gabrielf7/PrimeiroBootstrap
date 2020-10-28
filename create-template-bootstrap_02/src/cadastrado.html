@@ -1,0 +1,237 @@
+<!--
+  Aula: Aprender Bootstrap
+  Autor: João Gabriel
+-->
+
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Bootstrap</title>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/brands.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/solid.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/compile/bootstrap.css">
+    <link rel="stylesheet" href="../styles/css/mystyles.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    
+    <style>
+      .search {
+        padding: 1px 15px 3px 10px;
+        border-radius: 50px;
+        color: #f15a22;
+      }
+      
+      .carousel-indicators li {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: 100%;
+        cursor: url(assets/mao.png), move;
+        cursor: -webkit-grab;
+        cursor: -moz-grab;
+      }
+      
+      ::-webkit-scrollbar {
+        width: 0px;
+      }
+      
+      .scrollspySite {
+        position: relative;
+        overflow: auto;
+        height: 345px;
+      }
+      
+      a{
+        color: #f15a22;
+        text-decoration: none;
+        background-color: transparent;
+      }
+      
+      .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color:#f15a22;
+      }
+      
+      .carou-con-prev{
+        left: -2%;
+        transform: rotate(60deg);
+      }
+      
+      .carou-con-nex{
+        left: 98%;
+        transform: rotate(-60deg);
+      }
+      
+      .btn{
+        background-color: #f15a22;
+      }
+      
+      .text{
+        color: #f15a22;
+      }
+      
+      .btn-floating {
+        background-color: rgb(242, 246, 247);
+        padding: 0;
+        margin-top: 195px;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 4px 15px 0 #f15a22;
+        box-shadow: 0 4px 15px 0 #f15a22;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        width: 47px;
+        height: 47px;
+      }
+      
+      .btn-floating i {
+        display: inline-block;
+        width: inherit;
+        color: #f15a22;
+        text-align: center;
+      }
+      
+      .btn-floating i {
+        font-size: 1.25rem;
+        line-height: 47px;
+      }
+
+      .fa-paper-plane{
+        color: #f15a22;
+      }
+
+      .media a {
+        color: #f15a22 !important;
+        text-decoration: none !important;
+        background-color: transparent;
+      }
+    </style>
+
+    <script>
+      $('.input-group.date').datepicker({format: "dd/mm/yyyy"});
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg bg-dark"><!-- Header -->
+      <div class="container">
+        <a class="navbar-brand h1 mb-0" href="index.html"><img src="assets/brave.png" alt="LOGO" style="width: 86px; height: 86px;"/></a>
+        <button class="navbar-toggler border border-0" type="button" data-toggle="collapse" data-target="#navbarSite"> <!--controle-->
+          <span class=""><i class="fas fa-code fa-2x"></i></span>
+        </button><!---->
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav mr-auto text-center"> <!--Menu-->
+            <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">e-Commerce</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="dropdown" id="navDrop">Contatos</a>
+              <ul class="navbar-nav ml-auto"> <!-- links para contatos -->
+                <li class="nav-item dropdown">
+                  <div class="dropdown-menu text-center bg-transparent border border-light">
+                    <a class="dropdown-item text" href="#">Instagram</a>
+                    <a class="dropdown-item text" href="#">Twitter</a>
+                    <a class="dropdown-item text" href="#">Youtube</a>
+                    <a class="dropdown-item text" href="#">whatsapp</a>
+                  </div>
+                </li>
+              </ul><!---->
+            </li>
+          </ul><!---->
+          <div class="form align-item-center"> <!--Local de busca-->
+            <div class="form-row">
+              <div class="col-4"></div>
+              <div class="col-4 col-md-9">
+                <input class="form-control search" type="search" placeholder="Pesquise aqui..."/>
+              </div>
+              <div class="col-2 col-md-3">
+                <button class="btn btn-outline-light ml-sm-2" type="submit">OK</button>
+              </div>
+              <div class="col-2"></div>
+            </div>
+          </div><!---->
+          <a class="btn btn-outline-light ml-sm-2" href="cadastrado.html">Login</a>
+          <a class="btn btn-outline-light ml-sm-2" href="cadastrado.html">Cadastra-se</a>
+        </div>
+      </div>
+    </nav><!---->
+    <div class="content-justify-center mt-5 text-center">
+      <h3>Cadastra-se</h3>
+      <form class="mt-4">
+        <div class="form-row">
+          <div class="form col-4"></div>
+          <div class="form form col-4">
+            <div class="form-group col-sm-12"> <!-- NOME -->
+              <h6 class="text-left">Nome e seu sobrenome</h6>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                </div>
+                <input type="text" class="form-control" id="inputNome" placeholder="Ex: Luke Dark">
+              </div>
+            </div>
+            <div class="form-group col-sm-12"> <!-- EMAIL -->
+              <h6 class="text-left">Email</h6>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                </div>
+                <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group col-sm-12">
+              <h6 class="text-left">CPF</h6>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                </div>
+                <input type="text" class="form-control" id="inputNome" placeholder="ex: 123.456.789.10">
+              </div>
+            </div>
+            <div class="form-group col-sm-12">
+              <h6 class="text-left">Senha</h6>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                </div>
+                <input type="text" class="form-control" id="inputNome" placeholder="">
+              </div>
+            </div>
+            <div class="form-group col-sm-12">
+              <h6 class="text-left">Data de nascimento</h6>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                </div>
+                <input type="date" class="form-control" placeholder="dd/mm/aaaa">
+              </div>
+            </div>
+            <div class="form-group col-sm-12">
+              <h6 class="text-left">Telefone</h6>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                </div>
+                <input type="text" class="form-control" id="inputNome" placeholder="ex: (99) 99999-9999">
+              </div>
+            </div>
+            <div class="form-group col-sm-12 content-justify-center">
+              <button type="submit" class="btn  pg-5 text-white">Crie seu cadastrado</button>
+              <p class="mt-3">Fique tranquilo, nosso site é seguro!</p>
+            </div>
+          </div>
+          <div class="form col-4"></div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "create-template-bootstrap_03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-i": "sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compile styles/scss:styles/css",
+    "start": "start src/index.html"
+  },
+  "author": "joaogabriel",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

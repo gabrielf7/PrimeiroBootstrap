@@ -1,11 +1,12 @@
 {
-  "name": "n",
+  "name": "create-template-bootstrap_01",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.html"
+    "scss-i": "sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compile styles/scss:styles/css",
+    "start": "start src/index.html"
   },
   "author": "",
   "license": "ISC",

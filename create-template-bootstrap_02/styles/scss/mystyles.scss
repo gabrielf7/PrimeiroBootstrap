@@ -1,0 +1,219 @@
+// My theme
+$my1-color: #2a9d8f;
+$my2-color: #43535f;
+$my3-color: #04d361;
+$my4-color: #cbf3f0;
+$my5-color: #284b63;
+$my6-color: #6842c2;
+$my7-color: #00bbf9;
+$my8-color: #b7f8f8;
+
+
+// Color system
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+// $blue:    #007bff;
+
+$blue:    $white !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$colors: () !default;
+$colors: map-merge(
+  (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "white":      $white,
+    "gray":       $gray-600,
+    "gray-dark":  $gray-800
+  ),
+  $colors
+);
+
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+    "my1-color": $my1-color,
+    "my2-color": $my2-color,
+    "my3-color": $my3-color,
+    "my4-color": $my4-color,
+    "my5-color": $my5-color,
+    "my6-color": $my6-color,
+    "my7-color": $my7-color
+  ),
+  $theme-colors
+);
+
+// My CSS for Bootstrap Default CSS
+$body-bg: $white;
+$body-color:  $black;
+
+$modal-content-bg: $my5-color;
+$input-bg:  $my3-color;
+$table-bg: rgba($white, .92);
+$table-dark-accent-bg: rgba($my5-color, .92);
+
+$modal-content-color: $white;
+$table-color: $gray-400;
+$input-color: $white;
+$input-placeholder-color: $white;
+
+// importing the Boostrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// My Css
+
+body {
+  font-family: Arial;
+}
+
+.search {
+  padding: 1px 15px 3px 10px;
+  border-radius: 50px;
+  color: #f15a22;
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: 100%;
+  cursor: url(assets/mao.png), move;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  height: 345px;
+}
+
+a{
+  color: #ffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color:#f15a22;
+}
+
+.carou-con-prev{
+  left: -2%;
+  transform: rotate(60deg);
+}
+
+.carou-con-nex{
+  left: 98%;
+  transform: rotate(-60deg);
+}
+
+.btn{
+  background-color: #f15a22;
+}
+
+.text{
+  color: #f15a22;
+}
+
+.btn-floating {
+  background-color: rgb(242, 246, 247);
+  padding: 0;
+  margin-top: 195px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 4px 15px 0 #f15a22;
+  box-shadow: 0 4px 15px 0 #f15a22;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  width: 47px;
+  height: 47px;
+}
+
+.btn-floating i {
+  display: inline-block;
+  width: inherit;
+  color: #f15a22;
+  text-align: center;
+}
+
+.btn-floating i {
+  font-size: 1.25rem;
+  line-height: 47px;
+}
+
+.fa-paper-plane{
+  color: #f15a22;
+}
+
+.media a {
+  color: #f15a22 !important;
+  text-decoration: none !important;
+  background-color: transparent;
+}

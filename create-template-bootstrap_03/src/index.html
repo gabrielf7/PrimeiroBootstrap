@@ -1,0 +1,161 @@
+<!--
+  Motivo: Aprender Bootstrap
+  Autor: João Gabriel
+-->
+
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <title>$istemaPRO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/compile/bootstrap.css">
+    <link rel="stylesheet" href="../styles/css/mystyles.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/brands.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/solid.css">
+    <!-- My Javascript-->
+    <script>
+      // Material Select Initialization
+      $(document).ready(function() {
+      $('.mdb-select').materialSelect();
+      });
+    </script>
+    <!--<script>
+      function Mudarestado(el) {
+        var display = document.getElementById(el).style.display;
+        if (display == "none")
+          document.getElementById(el).style.display = 'block';
+        else
+          document.getElementById(el).style.display = 'none';
+      }
+    </script>-->
+    <!-- My styles-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="container rounded bg-my2-color border border-my3-color my-5">
+      <div class="row">
+        <div class="col-4 mt-5"><!--painel-de-controle-->
+          <div class="list-group bg-transparent text-center" id="list-tab" role="tablist">
+            <a class="list-group-item text-white list-group-item-action active" id="list-inicio" data-toggle="list" href="#inicio">Início</a>
+            <a class="list-group-item text-white list-group-item-action" id="list-inicio" data-toggle="list" href="#cadastro">Cadastro</a>
+            <a class="list-group-item text-white list-group-item-action" id="list-inicio" data-toggle="list" href="#vendas">Vendas</a>
+            <a class="list-group-item text-white list-group-item-action" id="list-inicio" data-toggle="list" href="#catalogo">Catálogo</a>
+            <a class="list-group-item text-white list-group-item-action" id="list-inicio" data-toggle="list" href="#relatorio">Relatório</a>
+          </div>
+        </div>
+        <div class="col-8 mt-5">
+          <div class="tab-content text-white" id="conteudo" style="height: 460px !important;">
+            <div class="tab-pane fade show active" id="inicio" role="tabpanel">
+              <div class="jumbotron text-center bg-transparent border border-my3-color">
+                <h2 class="display-4 mb-2">Olá, vamos n$gociar?</h2>
+                <hr class="mt-5 w-50 mb-3 bg-white">
+                <p class="mt-4">Seja convidado a utilizar nossas funcionalidades, pensamos em você e para você.</p>
+                <small class="text-my4-color">Escolha consciente. Escolha Produção DDW.</small><br />
+                <a class="btn mt-3 text-white border border-my3-color" href="#">Saiba mais</a>
+              </div>
+            </div>
+            <div class="tab-pane fade show" id="cadastro" role="tabpanel">
+              <!--<a class="btn btn-lg display-3 text-white border border-my3-color" href="#button-user-nivel" onclick="Mudarestado('button-user-nivel')">Cadastro de Usuário</a><br />
+              <a class="btn btn-lg display-3 text-white border border-my3-color" href="#button-produtos-vendas" onclick="Mudarestado('button-produtos-vendas')">Cadastro de Produto</a>-->
+              <form>
+                <div class="form-row">
+                  <div class="col-8">
+                    <h4 class="">Cadastro de Usuário do Sistema</h4>
+                  </div>
+                  <div class="col-4 text-right">
+                    <a class="btn btn-right text-white border border-my3-color mb-0" href="#">Cadastrar</a>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label>Nome do usuário:</label>
+                      <input type="text" class="form-control " id="nome-usuario" placeholder="Possuindo letras e número(s).">
+                    </div>
+                    <div class="form-group">
+                      <label>Escolha o nível do usuário:</label>
+                      <select class="form-control " id="select_nivel_user">
+                        <option value="0" selected disabled>
+                          Selecionar a opção...
+                        </option>
+                        <option value="1">Administrador</option>
+                        <option value="2">Analista de Sistemas</option>
+                        <option value="3">Gerente de Vendas</option>
+                        <option value="4">Vendedor</option>
+                        <option value="5">Suporte de TI</option>                    
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label>Senha:</label>
+                      <input type="password" class="form-control " id="senha-usuario" placeholder="Possuindo letras e número(s).">
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <form>
+                <div class="form-row">
+                  <div class="col-6">
+                    <h4 class="">Cadastrar Produto</h4>
+                  </div>
+                  <div class="col-6 text-right">
+                    <a class="btn btn-right text-white border border-my3-color mb-0" href="#">Cadastrar</a>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-4">
+                    <div class="form-group">
+                      <label>Código:</label>
+                      <input type="text" class="form-control " id="codigo-produto" placeholder="ex: 1234567-001">
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="form-group">
+                      <label>Categoria:</label>
+                      <select class="form-control " id="select-categoria-produto">
+                        <option value="0" selected disabled>
+                          Selecionar a opção...
+                        </option>
+                        <option value="1">Acessórios</option>
+                        <option value="2">Chápeu</option>
+                        <option value="3">Comida</option>
+                        <option value="4">Roupas</option>
+                        <option value="5">Sapatos</option>                    
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="form-group">
+                      <label>Data:</label>
+                      <input type="date" class="form-control" id="date-produto" placeholder="dd/mm/aaaa">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label>Descrição:</label>
+                      <input type="text" class="form-control pb-5 h-50 " id="descrition-produto" placeholder="Descrição do produto">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="tab-pane fade show" id="vendas" role="tabpanel">Início</div>
+            <div class="tab-pane fade show" id="catalogo" role="tabpanel">Início</div>
+            <div class="tab-pane fade show" id="relatorio" role="tabpanel">Início</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

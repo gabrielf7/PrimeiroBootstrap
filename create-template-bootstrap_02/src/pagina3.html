@@ -1,0 +1,149 @@
+<!--
+  Aula: Aprender Bootstrap
+  Autor: João Gabriel
+-->
+
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Bootstrap</title>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/brands.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/solid.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/compile/bootstrap.css">
+    <link rel="stylesheet" href="../styles/css/mystyles.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <style>
+      .search {
+        padding: 1px 15px 3px 10px;
+        border-radius: 50px;
+        color: #f15a22;
+      }
+
+      ::-webkit-scrollbar {
+        width: 0px;
+      }
+
+      .scrollspySite {
+        position: relative;
+        overflow: auto;
+        height: 345px;
+      }
+
+      a{
+        color: #f15a22;
+        text-decoration: none;
+        background-color: transparent;
+      }
+
+      .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color:#f15a22;
+      }
+
+      .fa-paper-plane{
+        color: #f15a22;
+      }
+
+      .media a {
+        color: #f15a22 !important;
+        text-decoration: none !important;
+        background-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg bg-dark"><!-- Header -->
+      <div class="container">
+        <a class="navbar-brand h1 mb-0 text-danger"  href="#">LOGO</a>
+        <button class="navbar-toggler border border-0" type="button" data-toggle="collapse" data-target="#navbarSite"> <!--controle-->
+          <span class=""><i class="fas fa-code fa-2x"></i></span>
+        </button><!---->
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav mr-auto text-center"> <!--Menu-->
+            <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">e-Commerce</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="dropdown" id="navDrop">Contatos</a>
+              <ul class="navbar-nav ml-auto"> <!-- links para contatos -->
+                <li class="nav-item dropdown">
+                  <div class="dropdown-menu text-center bg-transparent border border-light">
+                    <a class="dropdown-item text" href="#">Instagram</a>
+                    <a class="dropdown-item text" href="#">Twitter</a>
+                    <a class="dropdown-item text" href="#">Youtube</a>
+                    <a class="dropdown-item text" href="#">whatsapp</a>
+                  </div>
+                </li>
+              </ul><!---->
+            </li>
+          </ul><!---->
+          <div class="form align-item-center"> <!--Local de busca-->
+            <div class="form-row">
+              <div class="col-4"></div>
+              <div class="col-4 col-md-9">
+                <input class="form-control search" type="search" placeholder="Pesquise aqui..."/>
+              </div>
+              <div class="col-2 col-md-3">
+                <button class="btn btn-outline-light ml-sm-2" type="submit">OK</button>
+              </div>
+              <div class="col-2"></div>
+            </div>
+          </div><!---->
+          <a class="btn btn-outline-light ml-sm-2" href="cadastrado.html">Login</a>
+          <a class="btn btn-outline-light ml-sm-2" href="cadastrado.html">Cadastra-se</a>
+        </div>
+      </div>
+    </nav><!---->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-unstyled d-flex justify-content-center">
+            <li class="media my-4">
+              <a href="#"><img src="assets/arquillian_ui_error_64px.png" class="mr-3" alt="ArtigoSobreCloud"></a>
+              <div class="media-body">
+                <a href="#"><h5 class="mt-0 mb-1">Cloud no IOT</h5></a>
+                <p> Duis eu neque ac orci laoreet imperdiet ac ac massa. Duis at vestibulum lacus. Sed tempor faucibus dolor eu feugiat. Mauris sem urna, maximus non feugiat sit amet, volutpat et augue. Sed euismod nunc ac congue porta. Sed efficitur at risus et pulvinar. Vestibulum ut vehicula libero, a luctus nisi. Nunc ut mi dapibus diam vehicula imperdiet. Pellentesque hendrerit congue leo ac tristique. Vivamus pulvinar libero vel facilisis maximus.
+
+                Suspendisse sed feugiat eros, et ullamcorper ante. Suspendisse ornare tempus turpis, vehicula scelerisque metus rutrum in. Suspendisse posuere, orci quis aliquet dignissim, urna eros varius ipsum, quis ultrices lectus lorem ac massa. In varius, est convallis pharetra sagittis, ex augue tincidunt tortor, sed placerat orci magna venenatis purus. Nullam condimentum quam id rhoncus fringilla. Etiam non porttitor neque. Vivamus et turpis non justo sodales lobortis. Suspendisse ultrices venenatis rhoncus. Morbi aliquam eros eget dui fringilla, id vulputate quam feugiat. Curabitur in mi accumsan, posuere lorem et, venenatis tortor. In id tempor nibh. Etiam congue leo nibh, et cursus erat eleifend et. Pellentesque ex sapien, maximus at dapibus id, lobortis nec neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla eu quam purus. </p> 
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container justify- align-item-center">
+        <div class="row">
+          <div class="col-12">
+            <ul id="pagination-demo" class="pagination-sm mt-3 d-flex justify-content-center pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Anterior">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="pagina1.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="pagina2.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Próximo">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
