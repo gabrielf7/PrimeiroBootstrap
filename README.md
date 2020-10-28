@@ -24,7 +24,7 @@
 
 ## Before starting, some necessary requirements
 
-* Know about Git and GitHub interaction
+* Know about Git and GitHub interaction and SASS for Bootstrap
 
 ## Getting started
 
