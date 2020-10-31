@@ -1,9 +1,9 @@
 <div align="center">
   <h6>Simple Template using Bootstrap</h6>
   
-  <img alt="Logo of the project" src="https://github.com/gabrielf7/create-simple-bootstrap/blob/master/readme_files/Simples-Bootstrap-Designn.png" >
+  <img alt="Logo of the project" src="https://github.com/gabrielf7/create-template-bootstrap/blob/master/readme_files/Simples-Bootstrap-Designn.png" >
   
-  <p>Simple model with bootstrap. Take your first step.</p>
+  <p>Simple template with bootstrap. Take your first step.</p>
 </div>
 
 ## Technology 
@@ -24,20 +24,32 @@
 
 ## Before starting, some necessary requirements
 
-* Know about Git and GitHub interaction
+* Know about Git and GitHub interaction and SASS for Bootstrap
 
 ## Getting started
 
 * To install nodejs:
 >    [nodejs-update](https://nodejs.org/en/download/)
 * To clone repository with git:
->    $ git clone https://github.com/gabrielf7/create-simple-bootstrap.git
+>    $ git clone https://github.com/gabrielf7/create-template-bootstrap.git
 * To access simple bootstrap:
->    $ cd create-simples-bootstrap
-* To access the numbered folder, for example, "create-simples-bootstrap_01":
->    $ cd create-simples-bootstrap_01
+>    $ cd create-template-bootstrap
+* To access the numbered folder, for example, "create-template-bootstrap_01":
+>    $ cd create-template-bootstrap_01
 * To create node_modules in any project folder you want:
 >    $ npm install
+* To create the "compile" folder to manage css you need to execute the command below:
+>    $ npm run scss-i
+
+<br />
+
+>    (OBS: It is advisable to manipulate the css after this command in the folder 
+     styles / scss in the file "mystyles.scss", in this case, this file provides 
+     manipulation of the existing CSS in Bootstrap and traditional CSS. 
+     Any questions, just read the comments designated by the beginning "//").
+     
+<br />
+
 * To start simple bootstrap:
 >    $ npm start
 
