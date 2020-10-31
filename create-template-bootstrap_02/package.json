@@ -8,7 +8,7 @@
     "scss-i": "sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compile styles/scss:styles/css",
     "start": "start src/index.html"
   },
-  "author": "Joao Gabriel",
+  "author": "João_Gabriel",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
